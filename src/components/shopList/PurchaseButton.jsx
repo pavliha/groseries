@@ -22,7 +22,7 @@ class PurchaseButton extends React.Component {
     }
     return (
       <div>
-        {step ? <i className='fa fa-money fa-2x' onClick={() => this.setState({ step: false })}/> :
+        {step ? <i className='fa fa-money fa-2x text-primary' onClick={() => this.setState({ step: false })}/> :
           <div>
             {elements}
           </div>}

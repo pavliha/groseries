@@ -7,7 +7,7 @@ import { addItem, decreaseItemAmount, increaseItemAmount } from './fridge.action
 import FridgeInput from './FridgeInput'
 
 const Fridge = ({ number, fridges, decreaseItemAmount, increaseItemAmount, addItem }) =>
-  <Card title={"Fridge #" + (parseInt(number) + 1)}>
+  <Card style={{maxWidth:400}} title={"Fridge #" + (parseInt(number) + 1)}>
     <div>
       {fridges[ number ].map((item, key) =>
         <FridgeItem

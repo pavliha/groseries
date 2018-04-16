@@ -14,8 +14,8 @@ class ShopListItem extends React.PureComponent {
         <div className='d-flex'>
 
           <div className='px-3'>
-            <div><i className="fa fa-plus-circle" onClick={onIncrease}/></div>
-            <div><i className="fa fa-minus-circle" onClick={onDecrease}/></div>
+            <div><i className="fa fa-plus-circle text-primary" onClick={onIncrease}/></div>
+            <div><i className="fa fa-minus-circle text-primary" onClick={onDecrease}/></div>
           </div>
           <div>
             <div>{amount > 1 ? `(${amount}x)` : null} {name}</div>

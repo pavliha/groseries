@@ -72,3 +72,12 @@ body {
 .ant-card-extra {
   padding: 12px 0;
 }
+
+.text-primary {
+  color: rgba(60, 161, 255, 0.8) !important;
+  cursor: pointer;
+}
+
+.text-primary:hover {
+  color: rgba(60, 161, 255, 1) !important;
+}
